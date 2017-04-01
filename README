@@ -1,0 +1,8 @@
+Hosts client plugin for Tor NS API
+----------------------------------
+Still in prototyping stage. Client wrtten for [Tor NS API][0].
+
+- Concept testing in shell.
+- Prototype in python. [WIP]
+
+[0]: https://gitweb.torproject.org/torspec.git/plain/proposals/279-naming-layer-api.txt
