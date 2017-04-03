@@ -6,3 +6,19 @@ Still in prototyping stage. Client wrtten for [Tor NS API][0].
 - Prototype in python. [WIP]
 
 [0]: https://gitweb.torproject.org/torspec.git/plain/proposals/279-naming-layer-api.txt
+
+Usage
+-----
+
+    ./banana.py
+    INIT 1 0
+    RESOLVE 1 pickfire.zkey
+    RESOLVED 1 0 pickfireywcq2wf2.onion
+    RESOLVE 2 aoeu.zkey
+    RESOLVED 2 3 "aoeu.zkey not available"
+    CANCEL 2
+
+TODO
+----
+- Implement CANCEL
+- Store and check tld
