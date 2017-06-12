@@ -22,3 +22,8 @@ TODO
 ----
 - Implement CANCEL
 - Store and check tld
+
+See Also
+--------
+
+Meejah's POC of proposal 279 w/o changing Tor - https://github.com/meejah/torns
